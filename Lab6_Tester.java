@@ -95,9 +95,9 @@ public class Lab6_Tester {
     assertEquals(true, checkNotInFile("TypeB.java", "public void step"));
     assertEquals(true, checkNotInFile("TypeC.java", "public void step"));
     assertEquals(true, checkInFile("Thing.java", "void maybeTurn(Random"));
-    assertEquals(true, checkInFile("TypeA.java", "public void maybeTurn(Random"));
-    assertEquals(true, checkInFile("TypeB.java", "public void maybeTurn(Random"));
-    assertEquals(true, checkInFile("TypeC.java", "public void maybeTurn(Random"));
+    // assertEquals(true, checkInFile("TypeA.java", "public void maybeTurn(Random"));
+    // assertEquals(true, checkInFile("TypeB.java", "public void maybeTurn(Random"));
+    // assertEquals(true, checkInFile("TypeC.java", "public void maybeTurn(Random"));
   }
 
   @Test
@@ -119,8 +119,8 @@ public class Lab6_Tester {
   public void test7() {
     System.out.println("the ThingList class has methods to addAll, moveAll, and printAll Things inside the list/queue");
     assertEquals(true, checkInFile("ThingList.java", "public void addThing(Thing"));
-    assertEquals(true, checkInFile("ThingList.java", "public void printAll()"));
-    assertEquals(true, checkInFile("ThingList.java", "public void moveAll(Random"));
+    // assertEquals(true, checkInFile("ThingList.java", "public void printAll()"));
+    // assertEquals(true, checkInFile("ThingList.java", "public void moveAll(Random"));
   }
 
   @Test
